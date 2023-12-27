@@ -9,7 +9,7 @@ export const FriendList = ({ friends }) => {
         return (
           <FriendListItem
             key={id}
-            status={isOnline}
+            isOnline={isOnline}
             avatar={avatar}
             name={name}
           />
